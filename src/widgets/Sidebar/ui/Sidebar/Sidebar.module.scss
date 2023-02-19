@@ -28,3 +28,8 @@
 .theme {
     display: flex;
 }
+
+.nav_open_button {
+    background: var(--bg-color);
+    font: var(--primary-color);
+}
