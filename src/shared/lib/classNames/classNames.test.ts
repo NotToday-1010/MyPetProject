@@ -1,4 +1,4 @@
-import { classNames } from './classNames';
+import { classNames } from 'shared/lib/classNames/classNames';
 
 describe('classNames', () => {
     test('with only first param', () => {
@@ -10,14 +10,17 @@ describe('classNames', () => {
     });
 
     test('with first, second and third params', () => {
-        expect(classNames('someClass', { hovered: true, scrollable: true }, ['class1', 'class2'])).toBe('someClass class1 class2 hovered scrollable');
+        expect(classNames('someClass', { hovered: true, scrollable: true }, ['class1', 'class2']))
+            .toBe('someClass class1 class2 hovered scrollable');
     });
 
     test('with first, second false + true and third params', () => {
-        expect(classNames('someClass', { hovered: true, scrollable: false }, ['class1', 'class2'])).toBe('someClass class1 class2 hovered');
+        expect(classNames('someClass', { hovered: true, scrollable: false }, ['class1', 'class2']))
+            .toBe('someClass class1 class2 hovered');
     });
 
     test('with first, second false + undefined and third params', () => {
-        expect(classNames('someClass', { hovered: true, scrollable: undefined }, ['class1', 'class2'])).toBe('someClass class1 class2 hovered');
+        expect(classNames('someClass', { hovered: true, scrollable: undefined }, ['class1']))
+            .toBe('someClass class1 hovered');
     });
 });
