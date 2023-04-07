@@ -87,3 +87,4 @@ SquareSizeXl.args = {
     square: true,
     size: ButtonSize.XL,
 };
+SquareSizeXl.decorators = [ThemeDecorator(Theme.DARK)];
