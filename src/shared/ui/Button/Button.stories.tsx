@@ -55,59 +55,67 @@ OutlineDark.args = {
 };
 OutlineDark.decorators = [ThemeDecorator(Theme.DARK)];
 
-export const BackgroundTheme = Template.bind({});
-BackgroundTheme.args = {
-    children: 'Text',
-    theme: ButtonTheme.BACKGROUND,
-};
-
-export const BackgroundInverted = Template.bind({});
-BackgroundInverted.args = {
-    children: 'Text',
-    theme: ButtonTheme.BACKGROUND_INVERTED,
-};
-
-export const Square = Template.bind({});
-Square.args = {
-    children: '>',
-    theme: ButtonTheme.BACKGROUND_INVERTED,
-    square: true,
-};
-
-export const SquareSizeM = Template.bind({});
-SquareSizeM.args = {
-    children: '>',
-    theme: ButtonTheme.BACKGROUND_INVERTED,
-    square: true,
-    size: ButtonSize.M,
-};
-
-export const SquareSizeL = Template.bind({});
-SquareSizeL.args = {
-    children: '>',
-    theme: ButtonTheme.BACKGROUND_INVERTED,
-    square: true,
-    size: ButtonSize.L,
-};
-
-export const SquareSizeXL = Template.bind({});
-SquareSizeXL.args = {
-    children: '>',
-    theme: ButtonTheme.BACKGROUND_INVERTED,
-    square: true,
-    size: ButtonSize.XL,
-};
-
-export const OutlineSizeL = Template.bind({});
-OutlineSizeL.args = {
-    children: 'Text',
-    theme: ButtonTheme.OUTLINE,
-    size: ButtonSize.L,
-};
-
-export const OutlineSizeXL = Template.bind({});
-OutlineSizeXL.args = {
-    children: 'Text',
-    theme: ButtonTheme.OUTLINE,
-    size: ButtonSize.XL,
-};
+// export const BackgroundTheme = Template.bind({});
+// BackgroundTheme.args = {
+//     children: 'Text',
+//     theme: ButtonTheme.BACKGROUND,
+// };
+// BackgroundTheme.decorators = [ThemeDecorator(Theme.DARK)];
+//
+// export const BackgroundInverted = Template.bind({});
+// BackgroundInverted.args = {
+//     children: 'Text',
+//     theme: ButtonTheme.BACKGROUND_INVERTED,
+// };
+// BackgroundInverted.decorators = [ThemeDecorator(Theme.DARK)];
+//
+// export const Square = Template.bind({});
+// Square.args = {
+//     children: '>',
+//     theme: ButtonTheme.BACKGROUND_INVERTED,
+//     square: true,
+// };
+// Square.decorators = [ThemeDecorator(Theme.DARK)];
+//
+// export const SquareSizeM = Template.bind({});
+// SquareSizeM.args = {
+//     children: '>',
+//     theme: ButtonTheme.BACKGROUND_INVERTED,
+//     square: true,
+//     size: ButtonSize.M,
+// };
+// SquareSizeM.decorators = [ThemeDecorator(Theme.DARK)];
+//
+// export const SquareSizeL = Template.bind({});
+// SquareSizeL.args = {
+//     children: '>',
+//     theme: ButtonTheme.BACKGROUND_INVERTED,
+//     square: true,
+//     size: ButtonSize.L,
+// };
+// SquareSizeL.decorators = [ThemeDecorator(Theme.DARK)];
+//
+// export const SquareSizeXL = Template.bind({});
+// SquareSizeXL.args = {
+//     children: '>',
+//     theme: ButtonTheme.BACKGROUND_INVERTED,
+//     square: true,
+//     size: ButtonSize.XL,
+// };
+// SquareSizeXL.decorators = [ThemeDecorator(Theme.DARK)];
+//
+// export const OutlineSizeL = Template.bind({});
+// OutlineSizeL.args = {
+//     children: 'Text',
+//     theme: ButtonTheme.OUTLINE,
+//     size: ButtonSize.L,
+// };
+// OutlineSizeL.decorators = [ThemeDecorator(Theme.DARK)];
+//
+// export const OutlineSizeXL = Template.bind({});
+// OutlineSizeXL.args = {
+//     children: 'Text',
+//     theme: ButtonTheme.OUTLINE,
+//     size: ButtonSize.XL,
+// };
+// OutlineSizeXL.decorators = [ThemeDecorator(Theme.DARK)];
