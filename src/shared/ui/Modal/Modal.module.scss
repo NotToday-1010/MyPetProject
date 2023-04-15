@@ -10,13 +10,6 @@
     color: var(--inverted-primary-color);
 }
 
-.Modal.dark {
-    .content {
-        background: var(--bg-color);
-        color: var(--primary-color);
-    }
-}
-
 .overlay {
     width: 100%;
     height: 100%;
@@ -35,6 +28,8 @@
     max-width: 60%;
 }
 
+
+
 .opened {
     pointer-events: auto;
     opacity: 1;
@@ -48,5 +43,12 @@
 .isClosing {
     .content {
         transform: scale(0);
+    }
+}
+
+.Modal.dark {
+    .content {
+        background: var(--bg-color);
+        color: var(--primary-color);
     }
 }
